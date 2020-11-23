@@ -1,0 +1,244 @@
+.section-contacts{
+  background: url(../../img/section_4/bg__sec-4-min.png) center center / cover no-repeat;
+  color: #fff;
+  font-family: 'BradleyHand';
+  position: relative;
+  min-height: 1500px;
+  @media screen and (max-width: 1500px) {
+    height: auto;
+    text-align: center;
+   }
+}
+
+.container--contacts {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.section-contacts__top {
+  margin-bottom: 100px;
+}
+
+
+
+.insta {
+  margin-top: 2%;
+}
+
+.insta__title {
+  font-size: 72px;
+  margin-bottom: 3px;
+  @media screen and (max-width: 1500px) {
+    text-align: center;
+   }
+   @media screen and (max-width: 768px) {
+    font-size: 42px;
+   }
+}
+
+.insta__list {
+  display: flex;
+  justify-content: space-between;
+  @media screen and (max-width: 1500px) {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+}
+
+.insta__item {
+  max-width: 411px;
+  margin-right: 56px;
+  @media screen and (max-width: 1500px) {
+    margin-bottom: 56px;
+   }
+   @media screen and (max-width: 768px) {
+    margin-right: 0;
+   }
+}
+
+.contacts-we__left {
+  .contacts-we__title {
+    font-size: 52px;
+    margin-bottom: 30px;
+    padding-right: 22%;
+    @media screen and (max-width: 1500px) {
+      padding-right: 0;
+     }
+     @media screen and (max-width: 1500px) {
+      font-size: 30px;
+     }
+  }
+}
+
+.contacts-we__right {
+  .contacts-we__title {
+    font-size: 48px;
+    margin-bottom: 33px;
+    @media screen and (max-width: 768px) {
+      font-size: 33px;
+     }
+  }
+  
+}
+
+.contacts-we__title--yellow {
+  color: #ef8f20;
+}
+
+.contacts-we {
+  display: flex;
+  @media screen and (max-width: 1500px) {
+    flex-direction: column;
+    align-items: center;
+   }
+}
+
+.contacts-we__left {
+  width: 50%;
+  @media screen and (max-width: 1500px) {
+    width: 100%;
+   }
+} 
+
+.contacts-we__slider {
+  max-width: 821px;
+  position: relative;
+  @media screen and (max-width: 1500px) {
+    margin: 0 auto;
+   }
+}
+
+.contacts-we__slider-arrow-left,.contacts-we__slider-arrow-right {
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  background-color: #251c17;
+  width: 51px;
+  height: 51px;
+  cursor: pointer;
+  &::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+  }
+}
+
+.contacts-we__slider-arrow-left {
+  left: 5%;
+  &::after {
+    transform: translate(-25%, -50%) rotate(135deg);
+  }
+}
+
+.contacts-we__slider-arrow-right {
+  right: 5%;
+  &::after {
+    transform: translate(-75%, -50%) rotate(-45deg);
+  }
+}
+
+.contacts-we__right {
+  border-left: 1px solid #fff;
+  margin-left: 2%;
+  padding-left: 6%;
+  @media screen and (max-width: 1500px) {
+    border: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+   }
+}
+
+.contacts-we__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 110px;
+  @media screen and (max-width: 1500px) {
+    justify-content: center;
+   }
+}
+
+.contacts-we__list--yellow {
+  .contacts-we__item:not(:last-child) {
+    margin-right: 60px;
+  }
+}
+
+
+.contacts-we__list:last-child {
+  margin-bottom: 0;
+}
+
+.contacts-we__item:not(:last-child) {
+  margin-right: 24px;
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
+   }
+}
+
+.contacts-we__img {
+  width: 131px;
+  height: 130px;
+  display: block;
+  flex-shrink: 0;
+  background: url(../../img/section_4/vk-min.png) center center / contain no-repeat;
+  @media screen and (max-width: 768px) {
+    width: 80px;
+   }
+}
+
+.contacts-we__img--vk {
+  background-image: url(../../img/section_4/vk-min.png);
+}
+.contacts-we__img--insta {
+  background-image: url(../../img/section_4/insta-min.png);
+}
+.contacts-we__img--fb {
+  background-image: url(../../img/section_4/fb-min.png);
+}
+.contacts-we__img--wtatsApp {
+  background-image: url(../../img/section_4/wtahsApp-min.png);
+}
+.contacts-we__img--telegram {
+  background-image: url(../../img/section_4/telegram-min.png);
+}
+
+
+
+.contacts-we__decor {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  @media screen and (max-width: 1500px) {
+    display: none;
+   }
+}
+
+.contacts-we__arror-top {
+  position: absolute;
+  top: -17%;
+  right: 28%;
+  width: 209px;
+  height: 76px;
+  display: inline-table;
+  @media screen and (max-width: 1700px) {
+    display: none;
+   }
+}
+
+.contacts-we__decor__arror-bot {
+  position: absolute;
+  top: 51%;
+  right: 131%;
+  width: 253px;
+  height: 76px;
+  display: inline-table;
+  @media screen and (max-width:1700px) {
+    display: none;
+   }
+}
