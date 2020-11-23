@@ -1,5 +1,5 @@
 .section-contacts{
-  background: url(../../img/section_4/bg__sec-4-min.png) center center / cover no-repeat;
+  background: url(./../img/section_4/bg__sec-4-min.png) center center / cover no-repeat;
   color: #fff;
   font-family: 'BradleyHand';
   position: relative;
@@ -186,26 +186,26 @@
   height: 130px;
   display: block;
   flex-shrink: 0;
-  background: url(../../img/section_4/vk-min.png) center center / contain no-repeat;
+  background: url(./../img/section_4/vk-min.png) center center / contain no-repeat;
   @media screen and (max-width: 768px) {
     width: 80px;
    }
 }
 
 .contacts-we__img--vk {
-  background-image: url(../../img/section_4/vk-min.png);
+  background-image: url(./../img/section_4/vk-min.png);
 }
 .contacts-we__img--insta {
-  background-image: url(../../img/section_4/insta-min.png);
+  background-image: url(./../img/section_4/insta-min.png);
 }
 .contacts-we__img--fb {
-  background-image: url(../../img/section_4/fb-min.png);
+  background-image: url(./../img/section_4/fb-min.png);
 }
 .contacts-we__img--wtatsApp {
-  background-image: url(../../img/section_4/wtahsApp-min.png);
+  background-image: url(./../img/section_4/wtahsApp-min.png);
 }
 .contacts-we__img--telegram {
-  background-image: url(../../img/section_4/telegram-min.png);
+  background-image: url(./../img/section_4/telegram-min.png);
 }
 
 

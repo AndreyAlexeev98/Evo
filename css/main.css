@@ -1,30 +1,30 @@
 @font-face {
   font-family: 'CoreRhino';
-  src: url("../../fonts/CoreRino/CoreRhino35Light.woff2") format("woff2"), url("../../fonts/CoreRino/CoreRhino35Light.woff") format("woff");
+  src: url("./../fonts/CoreRino/CoreRhino35Light.woff2") format("woff2"), url("./../fonts/CoreRino/CoreRhino35Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap; }
 @font-face {
   font-family: 'CoreRhino';
-  src: url("../../fonts/CoreRino/CoreRhino55Medium.woff2") format("woff2"), url("../../fonts/CoreRino/CoreRhino55Medium.woff") format("woff");
+  src: url("./../fonts/CoreRino/CoreRhino55Medium.woff2") format("woff2"), url("./../fonts/CoreRino/CoreRhino55Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap; }
 @font-face {
   font-family: 'CoreRhino';
-  src: url("../../fonts/CoreRino/CoreRhino65Bold.woff2") format("woff2"), url("../../fonts/CoreRino/CoreRhino65Bold.woff") format("woff");
+  src: url("./../fonts/CoreRino/CoreRhino65Bold.woff2") format("woff2"), url("./../fonts/CoreRino/CoreRhino65Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap; }
 @font-face {
   font-family: 'CoreRhino';
-  src: url("../../fonts/CoreRino/CoreRhino75Heavy.woff2") format("woff2"), url("../../fonts/CoreRino/CoreRhino75Heavy.woff") format("woff");
+  src: url("./../fonts/CoreRino/CoreRhino75Heavy.woff2") format("woff2"), url("./../fonts/CoreRino/CoreRhino75Heavy.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: swap; }
 @font-face {
   font-family: 'BradleyHand';
-  src: url("../../fonts/BradleyHand/bradley_hand_itc_tt_bold-webfont.woff2") format("woff2"), url("../../fonts/BradleyHand/bradley_hand_itc_tt_bold-webfont.woff") format("woff");
+  src: url("./../fonts/BradleyHand/bradley_hand_itc_tt_bold-webfont.woff2") format("woff2"), url("./../fonts/BradleyHand/bradley_hand_itc_tt_bold-webfont.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap; }
@@ -546,7 +546,7 @@ img, svg {
   white-space: nowrap;
   padding: 3%; }
   .menu__item:hover {
-    background: url(../../img/section_hero/bg_hover_menu-min.png) center center/contain no-repeat; }
+    background: url(./../img/section_hero/bg_hover_menu-min.png) center center/contain no-repeat; }
   .menu__item .menu__numb {
     position: absolute;
     right: 3px;
@@ -573,28 +573,28 @@ img, svg {
 .socials__link {
   display: block;
   height: 100%;
-  background-image: url(../../img/section_hero/icons/insta.png);
+  background-image: url(./../img/section_hero/icons/insta.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center; }
 
 .socials__link--insta:hover {
-  background-image: url(../../img/section_hero/icons/insta_hover.png); }
+  background-image: url(./../img/section_hero/icons/insta_hover.png); }
 
 .socials__link--whatsApp {
-  background-image: url(../../img/section_hero/icons/whatsApp.png); }
+  background-image: url(./../img/section_hero/icons/whatsApp.png); }
   .socials__link--whatsApp:hover {
-    background-image: url(../../img/section_hero/icons/whatsApp_hover.png); }
+    background-image: url(./../img/section_hero/icons/whatsApp_hover.png); }
 
 .socials__link--mail {
-  background-image: url(../../img/section_hero/icons/mail.png); }
+  background-image: url(./../img/section_hero/icons/mail.png); }
   .socials__link--mail:hover {
-    background-image: url(../../img/section_hero/icons/mail_hover.png); }
+    background-image: url(./../img/section_hero/icons/mail_hover.png); }
 
 .socials__link--vk {
-  background-image: url(../../img/section_hero/icons/vk.png); }
+  background-image: url(./../img/section_hero/icons/vk.png); }
   .socials__link--vk:hover {
-    background-image: url(../../img/section_hero/icons/vk_hover.png); }
+    background-image: url(./../img/section_hero/icons/vk_hover.png); }
 
 .socials__item.socials__item--vk {
   width: 31px;
@@ -628,7 +628,7 @@ img, svg {
   font-size: 14px; }
 
 .contacts__point-ico {
-  background: url(../../img/section_hero/icons/point.png) center center/contain no-repeat;
+  background: url(./../img/section_hero/icons/point.png) center center/contain no-repeat;
   width: 25px;
   height: 33px;
   display: block;
@@ -666,7 +666,7 @@ img, svg {
   padding: 6px; }
 
 .section-how-work {
-  background: url(../../img/section_3/bg_sec_3-min.png) center center/cover no-repeat;
+  background: url(./../img/section_3/bg_sec_3-min.png) center center/cover no-repeat;
   display: flex;
   flex-direction: column;
   min-height: 1060px; }
@@ -687,7 +687,7 @@ img, svg {
       margin-top: 30px;
       margin-left: 0; } }
   .section-how-work__top .section-how-work__arrow-elem {
-    background: url(../../img/section_3/line_text_1-min.png) center center/cover no-repeat;
+    background: url(./../img/section_3/line_text_1-min.png) center center/cover no-repeat;
     width: 600px;
     height: 100px;
     position: absolute;
@@ -731,7 +731,7 @@ img, svg {
     .section-how-work__middle {
       margin-left: 0; } }
   .section-how-work__middle .section-how-work__arrow-elem {
-    background: url(../../img/section_3/line_text_2-min.png) center center/cover no-repeat;
+    background: url(./../img/section_3/line_text_2-min.png) center center/cover no-repeat;
     width: 150px;
     height: 120px;
     position: absolute;
@@ -769,13 +769,13 @@ img, svg {
   .section-how-work__item:hover {
     color: #ef8f20; }
     .section-how-work__item:hover .section-how-work__pic_1 {
-      background-image: url(../../img/section_3/bread-orange.png); }
+      background-image: url(./../img/section_3/bread-orange.png); }
     .section-how-work__item:hover .section-how-work__pic_2 {
-      background-image: url(../../img/section_3/bread-2-orange.png); }
+      background-image: url(./../img/section_3/bread-2-orange.png); }
     .section-how-work__item:hover .section-how-work__pic_3 {
-      background-image: url(../../img/section_3/milk.png); }
+      background-image: url(./../img/section_3/milk.png); }
     .section-how-work__item:hover .section-how-work__pic_4 {
-      background-image: url(../../img/section_3/cooking.png); }
+      background-image: url(./../img/section_3/cooking.png); }
   @media screen and (max-width: 1260px) {
     .section-how-work__item {
       border: none; } }
@@ -794,16 +794,16 @@ img, svg {
   flex-shrink: 0; }
 
 .section-how-work__pic_1 {
-  background-image: url(../../img/section_3/1_ico_3_sect-min.png); }
+  background-image: url(./../img/section_3/1_ico_3_sect-min.png); }
 
 .section-how-work__pic_2 {
-  background-image: url(../../img/section_3/2_ico_3_sec-min.png); }
+  background-image: url(./../img/section_3/2_ico_3_sec-min.png); }
 
 .section-how-work__pic_3 {
-  background-image: url(../../img/section_3/3_ico_3_sec-min.png); }
+  background-image: url(./../img/section_3/3_ico_3_sec-min.png); }
 
 .section-how-work__pic_4 {
-  background-image: url(../../img/section_3/4_ico_3_sec-min.png); }
+  background-image: url(./../img/section_3/4_ico_3_sec-min.png); }
 
 .section-how-work__desc {
   font-size: 16px;
@@ -812,7 +812,7 @@ img, svg {
   padding: 0 4%; }
 
 .section-contacts {
-  background: url(../../img/section_4/bg__sec-4-min.png) center center/cover no-repeat;
+  background: url(./../img/section_4/bg__sec-4-min.png) center center/cover no-repeat;
   color: #fff;
   font-family: 'BradleyHand';
   position: relative;
@@ -965,25 +965,25 @@ img, svg {
   height: 130px;
   display: block;
   flex-shrink: 0;
-  background: url(../../img/section_4/vk-min.png) center center/contain no-repeat; }
+  background: url(./../img/section_4/vk-min.png) center center/contain no-repeat; }
   @media screen and (max-width: 768px) {
     .contacts-we__img {
       width: 80px; } }
 
 .contacts-we__img--vk {
-  background-image: url(../../img/section_4/vk-min.png); }
+  background-image: url(./../img/section_4/vk-min.png); }
 
 .contacts-we__img--insta {
-  background-image: url(../../img/section_4/insta-min.png); }
+  background-image: url(./../img/section_4/insta-min.png); }
 
 .contacts-we__img--fb {
-  background-image: url(../../img/section_4/fb-min.png); }
+  background-image: url(./../img/section_4/fb-min.png); }
 
 .contacts-we__img--wtatsApp {
-  background-image: url(../../img/section_4/wtahsApp-min.png); }
+  background-image: url(./../img/section_4/wtahsApp-min.png); }
 
 .contacts-we__img--telegram {
-  background-image: url(../../img/section_4/telegram-min.png); }
+  background-image: url(./../img/section_4/telegram-min.png); }
 
 .contacts-we__decor {
   position: absolute;
