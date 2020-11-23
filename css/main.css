@@ -414,7 +414,7 @@ img, svg {
 .slider {
   position: absolute;
   right: 0;
-  top: 30%;
+  top: 26%;
   display: flex;
   align-items: center; }
   @media screen and (max-width: 1000px) {
@@ -669,7 +669,7 @@ img, svg {
   background: url(./../img/section_3/bg_sec_3-min.png) center center/cover no-repeat;
   display: flex;
   flex-direction: column;
-  min-height: 1060px; }
+  min-height: 1260px; }
   @media screen and (max-width: 1000px) {
     .section-how-work {
       align-items: center; } }
